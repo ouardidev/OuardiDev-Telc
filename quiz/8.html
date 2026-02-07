@@ -77,12 +77,54 @@
   font-weight: bold;
   z-index: 9999;
 }
+
+.audio-title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: linear-gradient(135deg, #1f3655, #2f4f6f);
+  padding: 12px 18px;
+  border-radius: 12px;
+  color: white;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+  animation: fadeInSlide 0.8s ease;
+}
+
+.audio-label {
+  font-weight: bold;
+  font-size: 1.2em;
+  white-space: nowrap;
+}
+
+.audio-title audio {
+  height: 32px;
+  filter: invert(1) brightness(1.2);
+}
+
+/* Animation خفيفة */
+@keyframes fadeInSlide {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
   </style>
 </head>
 <body>
 
   <div class="quiz-container" id="quiz1">
-    <h2>Lufthansa</h2>
+<h2 class="audio-title">
+  <span class="audio-label">🎧 Lufthansa</span>
+  <audio controls>
+    <source src="./b2audio/teil1/lufthansa.mp3" type="audio/mp4">
+    Ihr Browser unterstützt kein Audio.
+  </audio>
+</h2>
     <form>
       <table>
         <tbody><tr>
@@ -160,7 +202,13 @@
   </div>
 
   <div class="quiz-container" id="quiz3">
-    <h2>Bierkonsum</h2>
+<h2 class="audio-title">
+  <span class="audio-label">🎧 Bierkonsum</span>
+  <audio controls>
+    <source src="./b2audio/teil1/bierkonsum.mp3" type="audio/mp4">
+    Ihr Browser unterstützt kein Audio.
+  </audio>
+</h2>
     <form>
       <table>
         <tbody><tr>
@@ -277,7 +325,13 @@
   </div>
 
   <div class="quiz-container" id="quiz6">
-    <h2>Europäischen</h2>
+<h2 class="audio-title">
+  <span class="audio-label">🎧 Europäischen</span>
+  <audio controls>
+    <source src="./b2audio/teil1/europäischen.mp3" type="audio/mp4">
+    Ihr Browser unterstützt kein Audio.
+  </audio>
+</h2>
     <form>
       <table>
         <tbody><tr>
@@ -316,7 +370,13 @@
   </div>
 
   <div class="quiz-container" id="quiz7">
-    <h2>wetter</h2>
+<h2 class="audio-title">
+  <span class="audio-label">🎧 Wetter</span>
+  <audio controls>
+    <source src="./b2audio/teil1/wetter.mp3" type="audio/mp4">
+    Ihr Browser unterstützt kein Audio.
+  </audio>
+</h2>
     <form>
       <table>
         <tbody><tr>
@@ -355,7 +415,13 @@
   </div>
 
   <div class="quiz-container" id="quiz8">
-    <h2>nicht sicher</h2>
+<h2 class="audio-title">
+  <span class="audio-label">🎧 Nicht sicher</span>
+  <audio controls>
+    <source src="./b2audio/teil1/nichtsicher.mp3" type="audio/mp4">
+    Ihr Browser unterstützt kein Audio.
+  </audio>
+</h2>
     <form>
       <table>
         <tbody><tr>
@@ -472,7 +538,13 @@
   </div>
 
   <div class="quiz-container" id="quiz11">
-    <h2>Die Wahlbeteiligung</h2>
+<h2 class="audio-title">
+  <span class="audio-label">🎧 Die Wahlbeteiligung</span>
+  <audio controls>
+    <source src="./b2audio/teil1/dieWahlbeteiligung.mp3" type="audio/mp4">
+    Ihr Browser unterstützt kein Audio.
+  </audio>
+</h2>
     <form>
       <table>
         <tbody><tr>
@@ -628,7 +700,13 @@
   </div>
 
   <div class="quiz-container" id="quiz14">
-    <h2>Die Fluggeselschaft </h2>
+<h2 class="audio-title">
+  <span class="audio-label">🎧 Die Fluggeselschaft</span>
+  <audio controls>
+    <source src="./b2audio/teil1/diefluggeselschaft.m4a" type="audio/mp4">
+    Ihr Browser unterstützt kein Audio.
+  </audio>
+</h2>
     <form>
       <table>
         <tbody><tr>
@@ -784,7 +862,13 @@
   </div>
 
   <div class="quiz-container" id="quiz18">
-    <h2>Bei den Europawahlen</h2>
+<h2 class="audio-title">
+  <span class="audio-label">🎧 Bei den Europawahlen</span>
+  <audio controls>
+    <source src="./b2audio/teil1/europawahlen.mp3" type="audio/mp4">
+    Ihr Browser unterstützt kein Audio.
+  </audio>
+</h2>
     <form>
       <table>
         <tbody><tr>
@@ -823,7 +907,13 @@
   </div>
 
   <div class="quiz-container" id="quiz20">
-    <h2>Bei den Europawahlen</h2>
+<h2 class="audio-title">
+  <span class="audio-label">🎧 Bei den Europawahlen</span>
+  <audio controls>
+    <source src="./b2audio/teil1/europawahlen.mp3" type="audio/mp4">
+    Ihr Browser unterstützt kein Audio.
+  </audio>
+</h2>
     <form>
       <table>
         <tbody><tr>
