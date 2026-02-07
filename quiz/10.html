@@ -77,12 +77,55 @@
   font-weight: bold;
   z-index: 9999;
 }
+
+.audio-title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: linear-gradient(135deg, #1f3655, #2f4f6f);
+  padding: 12px 18px;
+  border-radius: 12px;
+  color: white;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+  animation: fadeInSlide 0.8s ease;
+}
+
+.audio-label {
+  font-weight: bold;
+  font-size: 1.2em;
+  white-space: nowrap;
+}
+
+.audio-title audio {
+  height: 32px;
+  filter: invert(1) brightness(1.2);
+}
+
+/* Animation خفيفة */
+@keyframes fadeInSlide {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
   </style>
 </head>
 <body>
 
   <div class="quiz-container" id="quiz1">
-    <h2>Telefon</h2>
+<h2 class="audio-title">
+  <span class="audio-label">🎧 Telefon</span>
+  <audio controls>
+    <source src="./b2audio/teil3/telefon.mp3" type="audio/mp4">
+    Ihr Browser unterstützt kein Audio.
+  </audio>
+</h2>
     <form>
       <table>
         <tbody><tr>
@@ -121,7 +164,13 @@
   </div>
 
   <div class="quiz-container" id="quiz2">
-    <h2>Musikfestivals</h2>
+<h2 class="audio-title">
+  <span class="audio-label">🎧 Musicfestivals</span>
+  <audio controls>
+    <source src="./b2audio/teil3/musicfestival.mp3" type="audio/mp4">
+    Ihr Browser unterstützt kein Audio.
+  </audio>
+</h2>
     <form>
       <table>
         <tbody><tr>
@@ -160,7 +209,13 @@
   </div>
 
   <div class="quiz-container" id="quiz3">
-    <h2>Fahrschule</h2>
+<h2 class="audio-title">
+  <span class="audio-label">🎧 Fahrschule</span>
+  <audio controls>
+    <source src="./b2audio/teil3/fahrschule.mp3" type="audio/mp4">
+    Ihr Browser unterstützt kein Audio.
+  </audio>
+</h2>
     <form>
       <table>
         <tbody><tr>
@@ -277,7 +332,14 @@
   </div>
 
   <div class="quiz-container" id="quiz6">
-    <h2>Internet</h2>
+<h2 class="audio-title">
+  <span class="audio-label">🎧 internet</span>
+  <audio controls>
+    <source src="./b2audio/teil3/internet.m4a" type="audio/mp4">
+    Ihr Browser unterstützt kein Audio.
+  </audio>
+</h2>
+
     <form>
       <table>
         <tbody><tr>
@@ -355,7 +417,14 @@
   </div>
 
   <div class="quiz-container" id="quiz8">
-    <h2> Demonstration </h2>
+<h2 class="audio-title">
+  <span class="audio-label">🎧 Demonstration</span>
+  <audio controls>
+    <source src="./b2audio/teil3/demonstration.m4a" type="audio/mp4">
+    Ihr Browser unterstützt kein Audio.
+  </audio>
+</h2>
+
     <form>
       <table>
         <tbody><tr>
@@ -433,7 +502,13 @@
   </div>
 
   <div class="quiz-container" id="quiz10">
-    <h2>Im August </h2>
+<h2 class="audio-title">
+  <span class="audio-label">🎧 Im August</span>
+  <audio controls>
+    <source src="./b2audio/teil3/imaugust.mp3" type="audio/mp4">
+    Ihr Browser unterstützt kein Audio.
+  </audio>
+</h2>
     <form>
       <table>
         <tbody><tr>
@@ -511,7 +586,13 @@
   </div>
 
   <div class="quiz-container" id="quiz12">
-    <h2>Ausgang</h2>
+<h2 class="audio-title">
+  <span class="audio-label">🎧 Ausgang</span>
+  <audio controls>
+    <source src="./b2audio/teil3/ausgang.mp3" type="audio/mp4">
+    Ihr Browser unterstützt kein Audio.
+  </audio>
+</h2>
     <form>
       <table>
         <tbody><tr>
@@ -550,7 +631,13 @@
   </div>
 
   <div class="quiz-container" id="quiz13">
-    <h2>Blutspenden</h2>
+<h2 class="audio-title">
+  <span class="audio-label">🎧 Blutspenden</span>
+  <audio controls>
+    <source src="./b2audio/teil3/blutspenden.mp3" type="audio/mp4">
+    Ihr Browser unterstützt kein Audio.
+  </audio>
+</h2>
     <form>
       <table>
         <tbody><tr>
@@ -629,7 +716,13 @@
   </div>
 
   <div class="quiz-container" id="quiz15">
-    <h2>Delikatessen</h2>
+<h2 class="audio-title">
+  <span class="audio-label">🎧 Delikatessen</span>
+  <audio controls>
+    <source src="./b2audio/teil3/delikatessen.m4a" type="audio/mp4">
+    Ihr Browser unterstützt kein Audio.
+  </audio>
+</h2>
     <form>
       <table>
         <tbody><tr>
