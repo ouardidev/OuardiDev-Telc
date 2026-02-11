@@ -1183,35 +1183,5 @@ window.addEventListener("beforeunload", sendPing);
 resetTimers();
 </script>
 
-<script>
-let adOpened = false;
-
-// 🔗 رابط Direct Link من Monetag (بدّلو بالرابط اللي عطاك)
-const DIRECT_LINK = "https://omg10.com/4/10596001";
-
-function checkAnswers(quizNumber) {
-
-  // 🔥 فتح الإعلان غير مرة وحدة
-  if (!adOpened) {
-    adOpened = true;
-    window.open(DIRECT_LINK, "_blank");
-  }
-
-  // ===== التصحيح =====
-  for (let i = 1; i <= 5; i++) {
-    const q = `q${quizNumber}_${i}`;
-    const inputs = document.getElementsByName(q);
-    const row = inputs[0].closest("tr");
-    row.className = "";
-
-    const selected = Array.from(inputs).find(r => r.checked);
-    if (selected) {
-      row.classList.add(
-        selected.value === correctAnswers[q] ? "correct" : "wrong"
-      );
-    }
-  }
-}
-</script>
 
 </a></body>
