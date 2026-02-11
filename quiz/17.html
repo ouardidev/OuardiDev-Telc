@@ -227,7 +227,7 @@
 </div>
 
 <div class="button-container">
-  <button onclick="submitQuizWithAd()" class="quiz-button">
+  <button onclick="submitQuiz()" class="quiz-button">
     <i class="fas fa-paper-plane"></i> Abschicken
   </button>
   <button onclick="resetQuiz()" class="quiz-button secondary">
@@ -539,23 +539,5 @@ window.addEventListener("beforeunload", sendPing);
 resetTimers();
 </script>
 
-<script>
-let adOpened = false;
-
-// 🔗 حط رابط Monetag Direct Link هنا
-const DIRECT_LINK = "https://omg10.com/4/10596001";
-
-function submitQuizWithAd() {
-
-  // 🔥 فتح الإعلان مرة وحدة فقط
-  if (!adOpened) {
-    adOpened = true;
-    window.open(DIRECT_LINK, "_blank");
-  }
-
-  // ✅ نادِي الدالة الأصلية كما كانت
-  submitQuiz();
-}
-</script>
 
 </body>
