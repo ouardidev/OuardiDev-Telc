@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<!-- Mirrored from pruefung-b2.netlify.app/schreiben18_b2 by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 31 Jan 2026 16:05:09 GMT -->
+<!-- Added by HTTrack -->
+<!-- Mirrored from b2-telc.netlify.app/prufung-test/schreiben18_b2 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Feb 2026 03:28:27 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <title>B2 Prüfung - Beschwerde Reisebüro</title>
+    
+    <link rel="stylesheet" href="exam-styles.css">
+</head>
+<body>
+
+<div class="header-top">
+    <div class="logo-box">PRÜFUNG</div>
+    <div style="font-weight: bold;">Schreiben: Beschwerdebrief</div>
+    <div class="info-top">
+        Deutsch - B2 | <span class="timer-highlight">Restzeit: <span id="time-display">30:00</span> Min</span>
+        <br>
+        <a class='btn-blue' href='../indexb2.html' onclick="saveAndReturn()">SPEICHERN & ZURÜCK</a>
+    </div>
+</div>
+
+<div class="main-content">
+    <div class="task-side">
+        <div class="yellow-box">Zeit: 30 Minuten | Mindestens 150 Wörter</div>
+
+        <div class="ad-full">
+            <h3 style="text-align: center; color: #cc0000; margin-top: 0;">Reisebüro Sonnenschein</h3>
+            <p style="text-align: center; font-weight: bold;">Ihr Online-Reisebüro für Last Minute - Urlaub</p>
+            <p>Verreisen Sie gerne spontan, ohne Monate vorher zu planen? Möchten Sie am liebsten schon morgen in den Urlaub fliegen? Dann sind unsere Reisen das Richtige für Sie.</p>
+            <p>Ob Strand, Großstadt oder Berge: Wir bieten Reisen mit bis zu <b>50 Prozent Rabatt!</b> Finden Sie bei uns den passenden Urlaub.</p>
+            <ul>
+                <li>Last- Minute- Reisen für Kurzentschlossene, zu den schönsten Urlaubszielen weltweit</li>
+                <li>Kreuzfahrten, All-Inclusive-Urlaub</li>
+                <li>Pauschalreisen (Flug, Hotel und Transfer, Reiseleitung)</li>
+            </ul>
+            <p style="font-size: 12px; border-top: 1px solid #ccc; padding-top: 5px;">
+                <b>Buchung online unter:</b> reisebuero-sonnenschein.net <br>
+                <b>Anschrift:</b> Reisebüro Sonnenschein, Käfergasse 5, 01109 Dresden.
+            </p>
+        </div>
+
+        <p>Sie haben bei diesem Reisebüro eine Pauschalreise gebucht. Als Sie abends im Hotel ankamen, gab es kein freies Zimmer für Sie. Schreiben Sie eine Beschwerde an das Reisebüro.</p>
+        
+        <p><b>Behandeln Sie darin entweder: <br> A) Drei der folgenden Punkte <br> oder <br> B) Zwei der folgenden Punkte und einen weiteren Aspekt Ihrer Wahl:</b></p>
+        <ul>
+            <li>Berichten Sie, was Sie an diesem Abend gemacht haben.</li>
+            <li>Beschreiben Sie, wie der Reiseleiter reagiert hat.</li>
+            <li>Erläutern Sie, welche Erwartungen Sie vor dem Urlaub hatten.</li>
+            <li>Berichten Sie, wie der Urlaub insgesamt war.</li>
+        </ul>
+        
+        <p style="font-size: 11px; color: #666; border-top: 1px solid #ddd; padding-top: 10px;">
+            Überlegen Sie sich vor dem Schreiben eine passende Reihenfolge der Punkte, eine passende Einleitung und einen passenden Schluss. Vergessen Sie nicht Ihren Absender, die Anschrift, Datum, Betreffzeile, Anrede und Schlussformel. Schreiben Sie mindestens 150 Wörter.
+        </p>
+    </div>
+
+    <div class="writing-side">
+        <div class="word-counter">
+            <div class="counter-left">
+                <span>Wörter: <span id="count">0</span> / 150</span>
+                <span>Zeichen: <span id="char-count">0</span></span>
+            </div>
+            <button class="btn-green" id="check-btn" onclick="checkText()">
+                🔍 Text überprüfen
+            </button>
+        </div>
+        <div class="textarea-container">
+            <textarea id="essay" placeholder="Fangen Sie hier an zu schreiben..."></textarea>
+        </div>
+
+        <div id="correction-panel" class="correction-panel">
+            <div class="correction-header">
+                <div class="correction-title">📝 Korrektur-Ergebnisse</div>
+                <button class="close-btn" onclick="closeCorrection()">✕ Schließen</button>
+            </div>
+            <div id="correction-content"></div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="notification" class="notification"></div>
+
+<script src="exam-script.js"></script>
+</body>
+
+<!-- Mirrored from pruefung-b2.netlify.app/schreiben18_b2 by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 31 Jan 2026 16:05:09 GMT -->
+
+<!-- Mirrored from b2-telc.netlify.app/prufung-test/schreiben18_b2 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Feb 2026 03:28:27 GMT -->
+</html>

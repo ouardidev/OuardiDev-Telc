@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<!-- Mirrored from pruefung-b2.netlify.app/schreiben3_b2 by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 31 Jan 2026 16:05:36 GMT -->
+<!-- Added by HTTrack -->
+<!-- Mirrored from b2-telc.netlify.app/prufung-test/schreiben03_b2 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Feb 2026 03:28:26 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <title>B2 Prüfung - Staubsaugroboter</title>
+    
+    <link rel="stylesheet" href="exam-styles.css">
+</head>
+<body>
+
+<div class="header-top">
+    <div class="logo-box">PRÜFUNG</div>
+    <div style="font-weight: bold;">Schreiben: Mängelrüge</div>
+    <div class="info-top">
+        Deutsch - B2 | <span class="timer-highlight">Restzeit: <span id="time-display">30:00</span> Min</span>
+        <br>
+        <a class='btn-blue' href='../indexb2.html' onclick="saveAndReturn()">SPEICHERN & ZURÜCK</a>
+    </div>
+</div>
+
+<div class="main-content">
+    <div class="task-side">
+        <div class="yellow-box">Zeit: 30 Minuten | Mindestens 150 Wörter</div>
+
+        <div class="ad-full">
+            <h3 style="text-align: center; margin-top: 0;">SuperClean-Staubsaugroboter i</h3>
+            <p>Schluss mit Schwitzen und Kriechen beim Staubsaugen SuperClean-Staubsaugroboter ist Ihr neuer Holfer im Haus</p>
+            <p>Darf ich mich vorstellen? Mein Name ist SuperClean-Staubsaugroboter, Ich bin Ihr neuer Staubsaugroboter. Sis haben schon lange nach einem Helfer im Haushalt gesucht? Sie möchten nicht mehr selbst staubsaugen und trotzdem eine saubere Wohnung haben? Dann brauchen Sie meine Hilfe. Während Sie lesen oder kochen, bin ich für Sie in Ihrer Wohnung unterwegs. Ich sauge dort, wo Sie es nicht schaffen: unter den Betten, unter dem Sofa. Staubsaugen ist meine Passion.</p>
+            <p>SuperClean-Staubsaugroboter arbeitet, während Sie sich vergnügen. Am liebsten arbeite ich für Sie, wenn Sie nicht zu Hause sind dank App such ganz einfach von unterwegs zu starten und zu bedienen.</p>
+            <p><b>Was kann Ihr neuer Helfer und wie ist er?</b></p>
+            <ul>
+                <li>leistungsstark auf allen Böden</li>
+                <li>angenehm leise</li>
+                <li>sicheres Navigieren mit System</li>
+                <li>reinigt unter Betten, Sofas, Tischen und einfach überall</li>
+                <li>gooignet auch für stark verschmutzte Flächen</li>
+                <li>ob Tierhaaro oder Haushaltsmüll, von mir bleibt nichts verschont</li>
+                <li>Rückerstattung des Kaufpreises, wenn Sie mit mir unzufrieden sind</li>
+            </ul>
+            <p><b>Mein Preis: 499,90 Euro</b><br>
+            Sie können mich direkt bei SuperClean-Staubsaugroboter GmbH bestellen.</p>
+            <p style="font-size: 11px;">SuperClean-Staubsaugroboter GmbH Adenauerstraße 12, 50000 Köln</p>
+        </div>
+
+        <p>Sie haben den obengenannten Staubsauger erworben. Leider gibt es mehrere Probleme mit diesem Gerät.</p>
+        <p>Schreiben Sie eine Mängelrüge an den Hersteller, ohne gleich mit dem Anwalt zu drohen.</p>
+        
+        <p><b>Behandeln Sie darin entweder drei der folgenden Punkte oder zwei der folgenden Punkte und einen weiteren Aspekt Ihrer Wahl:</b></p>
+        <ol>
+            <li>Beschreiben Sie, was nicht zu Ihrer Zufriedenheit ausfällt.</li>
+            <li>Erklären Sie, warum Sie sich genau für dieses Gerät entschieden hatten.</li>
+            <li>Schreiben Sie, welche Schäden Ihnen durch dieses Gerät bereits entstanden sind.</li>
+            <li>Legen Sie dar, was Sie nun vom Hersteller verlangen.</li>
+        </ol>
+        
+        <p style="font-size: 11px; color: #666; border-top: 1px solid #ddd; padding-top: 10px;">
+            Vergessen Sie nicht: Absender, Anschrift, Datum, Betreffzeile, Anrede und Schlussformel. Schreiben Sie mindestens 150 Wörter.
+        </p>
+    </div>
+
+    <div class="writing-side">
+        <div class="word-counter">
+            <div class="counter-left">
+                <span>Wörter: <span id="count">0</span> / 150</span>
+                <span>Zeichen: <span id="char-count">0</span></span>
+            </div>
+            <button class="btn-green" id="check-btn" onclick="checkText()">
+                🔍 Text überprüfen
+            </button>
+        </div>
+        <div class="textarea-container">
+            <textarea id="essay" placeholder="Fangen Sie hier an zu schreiben..."></textarea>
+        </div>
+
+        <div id="correction-panel" class="correction-panel">
+            <div class="correction-header">
+                <div class="correction-title">📝 Korrektur-Ergebnisse</div>
+                <button class="close-btn" onclick="closeCorrection()">✕ Schließen</button>
+            </div>
+            <div id="correction-content"></div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="notification" class="notification"></div>
+
+<script src="exam-script.js"></script>
+</body>
+
+<!-- Mirrored from pruefung-b2.netlify.app/schreiben3_b2 by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 31 Jan 2026 16:05:36 GMT -->
+
+<!-- Mirrored from b2-telc.netlify.app/prufung-test/schreiben03_b2 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Feb 2026 03:28:26 GMT -->
+</html>

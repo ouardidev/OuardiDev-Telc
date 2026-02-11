@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<!-- Mirrored from pruefung-b2.netlify.app/schreiben6_b2 by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 31 Jan 2026 16:05:08 GMT -->
+<!-- Added by HTTrack -->
+<!-- Mirrored from b2-telc.netlify.app/prufung-test/schreiben6_b2 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Feb 2026 03:28:27 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <title>B2 Prüfung - Beschwerde Freizeitverein Mainz</title>
+    
+    <link rel="stylesheet" href="exam-styles.css">
+</head>
+<body>
+
+<div class="header-top">
+    <div class="logo-box">PRÜFUNG</div>
+    <div style="font-weight: bold;">Schreiben: Beschwerdebrief</div>
+    <div class="info-top">
+        Deutsch - B2 | <span class="timer-highlight">Restzeit: <span id="time-display">30:00</span> Min</span>
+        <br>
+        <a class='btn-blue' href='../indexb2.html' onclick="saveAndReturn()">SPEICHERN & ZURÜCK</a>
+    </div>
+</div>
+
+<div class="main-content">
+    <div class="task-side">
+        <div class="yellow-box">Zeit: 30 Minuten | Mindestens 150 Wörter</div>
+
+        <div class="ad-full">
+            <h3 style="text-align: center; margin-top: 0;">Freizeitverein Mainz</h3>
+            <p>Sie wollen in Ihrer Freizeit mehr erleben? Neue Leute aus Mainz kennenlernen? Am Wochenende nie mehr allein sein? Dann werden Sie Mitglied im Freizeitverein!</p>
+            <p>Wir organisieren verschiedene Aktivitäten in Mainz und Umgebung: Wanderungen, Restaurantbesuche, Ausflüge, Fahrradtouren, Museums- und Theaterbesuche, Spiele, und Kinoabende.......</p>
+            <p>Jede Woche stehen mindestens zwei unterschiedliche Angebote auf dem Programm. Ob Sport oder Kultur - bei uns kommt jeder auf seine Kosten. Sie können viel Neues ausprobieren und lernen dabei nette Leute kennen.</p>
+            <p>Unsere Mitglieder sind zwischen 25 und 80 Jahre alt. Bei uns ist jeder willkommen, ob Student oder Seniorin. Sie finden bei uns neue Freunde und Bekannte, mit denen Sie viel erleben können. Probieren Sie es doch einfach mal aus!</p>
+            <p>Die Mitgliedschaft kostet <b>20 € pro Monat</b>.</p>
+            <p style="font-size: 11px; border-top: 1px solid #ccc; padding-top: 5px;">
+                <b>Adresse:</b> Freizeitverein Mainz, Hohe Bleiche 10, 55126 Mainz
+            </p>
+        </div>
+
+        <p>Sie sind seit zwei Wochen Mitglied im Freizeitverein. Doch Sie sind nicht zufrieden. Schreiben Sie eine Beschwerde.</p>
+        
+        <p><b>Behandeln Sie darin entweder A) drei der folgenden Punkte oder B) zwei Punkte und einen weiteren Aspekt Ihrer Wahl:</b></p>
+        <ul>
+            <li>Erklären Sie, warum Sie mit dem Angebot des Freizeitvereins nicht zufrieden sind.</li>
+            <li>Erklären Sie, was Sie nach dem Lesen der Anzeige erwartet hatten.</li>
+            <li>Machen Sie Verbesserungsvorschläge zum Programm.</li>
+            <li>Erklären Sie, was Sie tun werden, wenn sich nichts ändert.</li>
+        </ul>
+        
+        <p style="font-size: 11px; color: #666; border-top: 1px solid #ddd; padding-top: 10px;">
+            Vergessen Sie nicht: Absender, Anschrift, Datum, Betreffzeile, Anrede und Schlussformel. Schreiben Sie mindestens 150 Wörter.
+        </p>
+    </div>
+
+    <div class="writing-side">
+        <div class="word-counter">
+            <div class="counter-left">
+                <span>Wörter: <span id="count">0</span> / 150</span>
+                <span>Zeichen: <span id="char-count">0</span></span>
+            </div>
+            <button class="btn-green" id="check-btn" onclick="checkText()">
+                🔍 Text überprüfen
+            </button>
+        </div>
+        <div class="textarea-container">
+            <textarea id="essay" placeholder="Fangen Sie hier an zu schreiben..."></textarea>
+        </div>
+
+        <div id="correction-panel" class="correction-panel">
+            <div class="correction-header">
+                <div class="correction-title">📝 Korrektur-Ergebnisse</div>
+                <button class="close-btn" onclick="closeCorrection()">✕ Schließen</button>
+            </div>
+            <div id="correction-content"></div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="notification" class="notification"></div>
+
+<script src="exam-script.js"></script>
+</body>
+
+<!-- Mirrored from pruefung-b2.netlify.app/schreiben6_b2 by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 31 Jan 2026 16:05:08 GMT -->
+
+<!-- Mirrored from b2-telc.netlify.app/prufung-test/schreiben6_b2 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Feb 2026 03:28:27 GMT -->
+</html>

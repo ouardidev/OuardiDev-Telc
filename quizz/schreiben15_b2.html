@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<!-- Mirrored from pruefung-b2.netlify.app/schreiben15_b2 by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 31 Jan 2026 16:05:09 GMT -->
+<!-- Added by HTTrack -->
+<!-- Mirrored from b2-telc.netlify.app/prufung-test/schreiben15_b2 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Feb 2026 03:28:27 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <title>B2 Prüfung - Beschwerde Obstkiste</title>
+    
+    <link rel="stylesheet" href="exam-styles.css">
+</head>
+<body>
+
+<div class="header-top">
+    <div class="logo-box">PRÜFUNG</div>
+    <div style="font-weight: bold;">Schreiben: Beschwerdebrief</div>
+    <div class="info-top">
+        Deutsch - B2 | <span class="timer-highlight">Restzeit: <span id="time-display">30:00</span> Min</span>
+        <br>
+        <a class='btn-blue' href='../indexb2.html' onclick="saveAndReturn()">SPEICHERN & ZURÜCK</a>
+    </div>
+</div>
+
+<div class="main-content">
+    <div class="task-side">
+        <div class="yellow-box">Zeit: 30 Minuten | Mindestens 150 Wörter</div>
+
+        <div class="ad-full">
+            <h3 style="text-align: center; color: #2d5a27; margin-top: 0;">Meine Kiste: Obst und Gemüse im Abo bestellbar</h3>
+            <p>Gesunde Ernährung – direkt an Ihre Haustür oder Ihren Arbeitsplatz geliefert. Wählen Sie wöchentlich eine
+unserer Kisten aus und erhalten Sie eine Zusammenstellung von biologisch angebautem Obst und Gemüse.</p>
+            
+            <p><b>Sie können wählen zwischen:</b></p>
+            <ul>
+                <li><b>Meine Kiste Single:</b> 10 €</li>
+                <li><b>Meine Kiste Familia:</b> 20 €</li>
+                <li><b>Meine Kiste Büro:</b> 40 €</li>
+            </ul>
+            
+            <p>Auf Wunsch liefern wir auch weitere regionale Produkte wie Backwaren, Eier, Käse und Getränke.</p>
+            
+            <p><b>Vorteile Ihrer Kiste:</b><br>
+            Kurze Transportwege, Produkte von regionalen Erzeugern, kontrollierter Anbau, Obst und Gemüse je nach Jahreszeit zusammengestellt, Kostenlose Rezepte zur Zubereitung von Gemüse, Lieferung an Ihren Wunschort.</p>
+            
+            <p style="font-size: 12px; border-top: 1px solid #ccc; padding-top: 5px;">
+                <b>Bestellen Sie hier:</b> www.diegesundeobstkiste.de | <b>Tel:</b> 212 771187677
+            </p>
+        </div>
+
+        <p>Sie haben sich Obst und Gemüse liefern lassen, aber Sie sind unzufrieden. Schreiben Sie eine Beschwerde.</p>
+        
+        <p><strong>Behandeln Sie folgende Punkte:</strong></p>
+        <ol>
+            <li>Schreiben Sie, warum Sie sich regelmäßig Obst und Gemüse liefern lassen möchten.</li>
+            <li>Erklären Sie, warum biologisch angebautes Obst und Gemüse aus der Region für Sie wichtig ist.</li>
+            <li>Erläutern Sie, warum Sie mit dem Service unzufrieden waren.</li>
+            <li>Machen Sie Verbesserungsvorschläge.</li>
+        </ol>
+        
+        <p style="font-size: 11px; color: #666; border-top: 1px solid #ddd; padding-top: 10px;">
+            Vergessen Sie nicht: Absender, Anschrift, Datum, Betreffzeile, Anrede und Schlussformel. Schreiben Sie mindestens 150 Wörter.
+        </p>
+    </div>
+
+    <div class="writing-side">
+        <div class="word-counter">
+            <div class="counter-left">
+                <span>Wörter: <span id="count">0</span> / 150</span>
+                <span>Zeichen: <span id="char-count">0</span></span>
+            </div>
+            <button class="btn-green" id="check-btn" onclick="checkText()">
+                🔍 Text überprüfen
+            </button>
+        </div>
+        <div class="textarea-container">
+            <textarea id="essay" placeholder="Fangen Sie hier an zu schreiben..."></textarea>
+        </div>
+
+        <div id="correction-panel" class="correction-panel">
+            <div class="correction-header">
+                <div class="correction-title">📝 Korrektur-Ergebnisse</div>
+                <button class="close-btn" onclick="closeCorrection()">✕ Schließen</button>
+            </div>
+            <div id="correction-content"></div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="notification" class="notification"></div>
+
+<script src="exam-script.js"></script>
+</body>
+
+<!-- Mirrored from pruefung-b2.netlify.app/schreiben15_b2 by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 31 Jan 2026 16:05:09 GMT -->
+
+<!-- Mirrored from b2-telc.netlify.app/prufung-test/schreiben15_b2 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Feb 2026 03:28:27 GMT -->
+</html>

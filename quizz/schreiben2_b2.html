@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<!-- Mirrored from pruefung-b2.netlify.app/schreiben2_b2 by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 31 Jan 2026 16:05:07 GMT -->
+<!-- Added by HTTrack -->
+<!-- Mirrored from b2-telc.netlify.app/prufung-test/schreiben2_b2 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Feb 2026 03:28:26 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <title>B2 Prüfung - Beschwerde Radeln</title>
+    
+    <link rel="stylesheet" href="exam-styles.css">
+</head>
+<body>
+
+<div class="header-top">
+    <div class="logo-box">PRÜFUNG</div>
+    <div style="font-weight: bold;">Schreiben: Beschwerdebrief</div>
+    <div class="info-top">
+        Deutsch - B2 | <span class="timer-highlight">Restzeit: <span id="time-display">30:00</span> Min</span>
+        <br>
+        <a class='btn-blue' href='../indexb2.html' onclick="saveAndReturn()">SPEICHERN & ZURÜCK</a>
+    </div>
+</div>
+
+<div class="main-content">
+    <div class="task-side">
+        <div class="yellow-box">Zeit: 30 Minuten | Mindestens 150 Wörter</div>
+
+        <div class="ad-full">
+            <h3 style="text-align: center; margin-top: 0;">Mehr bewegen - aber wie?</h3>
+            <p>Es ist in aller Munde: Wir bewegen uns zu wenig. four Das schadet unserer Gesundheit! Was können wir also tun?</p>
+            <p>Wir haben die Lösung! Jeden Abend und am Wochenende auch tagsüber, bieten wir "Radeln mit. Spall" an. Freundliche junge Trainer begleiten Sie bei den Radtouren und gehen dabei gern auf Ihre Fragen rund um Sport und Gesundheit ein.</p>
+            <p>Ein großes Angebot an modernen Rädern steht bereit falls Sie kein eigenes Fahrrad haben.</p>
+            <p>Wir treffen uns jeden Abend ab 18 Uhr, am Samstag und am Sonntag ab 10 Uhr, auf unserem Vereinsgelände auf der Heidewiese. Einstündige Touren mit Trainer kosten EURO 5,00 oder Sie werden gleich Mitglied für EURO 25,00 pro Monat. Dann entfallen weitere Kosten.</p>
+            <p>Am Ende einer Tour werden Sie spüren, wie anstrengend es war. Aber gerade das ist gut für Ihre Gesundheit.</p>
+            <p style="font-size: 11px; border-top: 1px solid #ccc; padding-top: 5px;">
+                <b>Kontakt:</b> Radel dich munter e. V., Heidewiese 1, 44777 Heimerstädt<br>
+                E-Mail: info@radeldichmunter.de
+            </p>
+        </div>
+
+        <p>Sie haben an einer Fahrradtour mit Trainer teilgenommen. Leider waren Sie nicht zufrieden. Schreiben Sie an den Verein "Radel dich munter e. V.". Beschweren Sie sich.</p>
+        
+        <p><b>Behandeln Sie entweder a) mindestens drei der folgenden Punkte oder b) mindestens zwei und einen weiteren Aspekt Ihrer Wahl:</b></p>
+        <ul>
+            <li>Warum Sie das Angebot sehr interessant hat.</li>
+            <li>Beschreiben Sie detailliert die Probleme.</li>
+            <li>Was Ihnen an der Fahrradtour gefallen hat.</li>
+            <li>Beschreiben Sie genau die Reaktion des Trainers auf Ihre Fragen.</li>
+        </ul>
+        
+        <p style="font-size: 11px; color: #666; border-top: 1px solid #ddd; padding-top: 10px;">
+            Vergessen Sie nicht: Absender, Anschrift, Datum, Betreffzeile, Anrede und Schlussformel. Schreiben Sie mindestens 150 Wörter.
+        </p>
+    </div>
+
+    <div class="writing-side">
+        <div class="word-counter">
+            <div class="counter-left">
+                <span>Wörter: <span id="count">0</span> / 150</span>
+                <span>Zeichen: <span id="char-count">0</span></span>
+            </div>
+            <button class="btn-green" id="check-btn" onclick="checkText()">
+                🔍 Text überprüfen
+            </button>
+        </div>
+        <div class="textarea-container">
+            <textarea id="essay" placeholder="Fangen Sie hier an zu schreiben..."></textarea>
+        </div>
+
+        <div id="correction-panel" class="correction-panel">
+            <div class="correction-header">
+                <div class="correction-title">📝 Korrektur-Ergebnisse</div>
+                <button class="close-btn" onclick="closeCorrection()">✕ Schließen</button>
+            </div>
+            <div id="correction-content"></div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="notification" class="notification"></div>
+
+<script src="exam-script.js"></script>
+</body>
+
+<!-- Mirrored from pruefung-b2.netlify.app/schreiben2_b2 by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 31 Jan 2026 16:05:07 GMT -->
+
+<!-- Mirrored from b2-telc.netlify.app/prufung-test/schreiben2_b2 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Feb 2026 03:28:26 GMT -->
+</html>
